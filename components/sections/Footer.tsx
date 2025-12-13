@@ -58,13 +58,13 @@ const Footer = () => {
               <h6 className="px-2 py-1 text-[#FAF8F2]">
                 Legal
               </h6>
-              <Link href={LEGAL_LINKS.PRIVACY_POLICY} rel="noopener noreferrer" target="_blank" className="block px-2 py-1 text-[#FAF8F2] hover:underline">
+              <Link href={LEGAL_LINKS.PRIVACY_POLICY} rel="noopener noreferrer" target="_self" className="block px-2 py-1 text-[#FAF8F2] hover:underline">
                 Política de Privacidade
               </Link>
-              <Link href={LEGAL_LINKS.TERMS_OF_USE} rel="noopener noreferrer" target="_blank" className="block px-2 py-1 text-[#FAF8F2] hover:underline">
+              <Link href={LEGAL_LINKS.TERMS_OF_USE} rel="noopener noreferrer" target="_self" className="block px-2 py-1 text-[#FAF8F2] hover:underline">
                 Termos de Uso
               </Link>
-              <Link href={LEGAL_LINKS.COOKIES_POLICY} rel="noopener noreferrer" target="_blank" className="block px-2 py-1 text-[#FAF8F2] hover:underline">
+              <Link href={LEGAL_LINKS.COOKIES_POLICY} rel="noopener noreferrer" target="_self" className="block px-2 py-1 text-[#FAF8F2] hover:underline">
                 Política de Cookies
               </Link>
             </div>
@@ -80,7 +80,7 @@ const Footer = () => {
           <p className="text-sm text-[#FAF8F2] text-center sm:text-start">
             © {new Date().getFullYear()} Silvana Cabral. Todos os direitos reservados.
           </p>
-          <Link href={PAGE_LINKS.LOCUZ} rel="noopener noreferrer" target="_blank" className="flex flex-row gap-1 text-[#FAF8F2] text-sm leading-[1.5rem]">
+          <Link href={PAGE_LINKS.LOCUZ} rel="noopener noreferrer author sponsored" target="_blank" className="flex flex-row gap-1 text-[#FAF8F2] text-sm leading-[1.5rem]">
             Criado por:
             <img src="/assets/logo/locuz.svg" alt="Logo LocuZ" className="h-6" />
           </Link>
