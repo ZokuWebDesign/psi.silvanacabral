@@ -18,9 +18,7 @@ export default function Home() {
       <Hero />
       <CrawlingBanner />
       <Feelings />
-      {/*}
       <Insurances />
-      */}
       <Approach />
       <About />
       <FAQ />
