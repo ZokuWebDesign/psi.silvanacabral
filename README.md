@@ -4,7 +4,7 @@ Welcome to **Silvana Cabral's Psychology Consultation Website**, a professional 
 
 You can access the [project's live website here](https://backup.silvanacabral.com.br/).
 
-![Project's Cover](https://i.ibb.co/b57Xxwb4/cover.webp)
+![Project's Cover](./public/assets/images/cover.webp)
 
 > Taking care of your mind is taking care of your life.
 
