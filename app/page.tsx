@@ -1,3 +1,4 @@
+import { metadata } from "./metadata";
 import Navbar from "@/components/sections/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import CrawlingBanner from "@/components/sections/CrawlingBanner";
@@ -10,6 +11,8 @@ import Contact from "@/components/sections/Contact";
 import CTA from "@/components/sections/CTA";
 import Location from "@/components/sections/Location"
 import Footer from "@/components/sections/Footer";
+
+export { metadata };
 
 export default function Home() {
   return (
